@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/back.png</file>
+        <file>Image/gps-off.png</file>
+        <file>Image/gps-on.png</file>
+        <file>Image/nav-camera.png</file>
+        <file>Image/nav-net.png</file>
+        <file>Image/nav-setting.png</file>
+        <file>Image/nav-video-camera.png</file>
+        <file>Image/ok.png</file>
+        <file>Image/power.png</file>
+        <file>Image/signal-p0.png</file>
+        <file>Image/signal-p1.png</file>
+        <file>Image/signal-p2.png</file>
+        <file>Image/signal-p3.png</file>
+        <file>Image/signal-p4.png</file>
+        <file>Image/signal-p5.png</file>
+        <file>Image/storage.png</file>
+        <file>Image/storage-alarm.png</file>
+        <file>Image/video-off.png</file>
+        <file>Image/video-on.png</file>
+    </qresource>
+</RCC>

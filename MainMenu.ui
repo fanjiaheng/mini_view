@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QWidget" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainMenu</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+*{
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 255, 100%);
+font: 22px;
+/*border:1px solid red;*/
+}
+
+#widgetHead{
+	background-color: rgba(20 ,30, 30,100);
+}
+
+#widgetBottom{
+	background-color: rgba(20 ,30, 30,100);
+}
+
+#navWidget{
+	border-top:5px solid #191970;
+	border-bottom:5px solid #191970;
+}
+
+#videoBtn:focus{
+	border: 1px solid rgb(255,209,128);
+}
+
+#cameraBtn:focus{
+	border: 1px solid rgb(255,209,128);
+}
+
+#netBtn:focus{
+	border: 1px solid rgb(255,209,128);
+}
+
+#settingBtn:focus{
+	border: 1px solid rgb(255,209,128);
+}
+
+#keyboardWidget{
+	background-color: rgba(255,209,128,100);
+}</string>
+  </property>
+  <widget class="QWidget" name="navWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>118</y>
+     <width>480</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="videoBtn">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>18</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/Image/nav-video-camera.png</normaloff>:/Image/nav-video-camera.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cameraBtn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>18</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/Image/nav-camera.png</normaloff>:/Image/nav-camera.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="netBtn">
+    <property name="geometry">
+     <rect>
+      <x>251</x>
+      <y>17</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/Image/nav-net.png</normaloff>:/Image/nav-net.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settingBtn">
+    <property name="geometry">
+     <rect>
+      <x>352</x>
+      <y>17</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/Image/nav-setting.png</normaloff>:/Image/nav-setting.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
