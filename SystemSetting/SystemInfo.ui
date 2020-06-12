@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SystemInfo</class>
+ <widget class="QWidget" name="SystemInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SystenInfo</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+*{
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 255, 100%);
+font: 18px;
+/*border:1px solid red;*/
+}
+
+#baseWidget{
+background-color: rgba(0, 0, 255, 100%);
+}
+
+#widgetHead{
+	/*background-color: rgba(20 ,30, 30,100);*/
+	/*border-bottom:1px solid #F8F8FF;*/
+}
+
+#tableWidget::item:focus{
+	/*border: 0px solid rgb(255,209,128);)*/
+border: 0px;
+background-color::rgb(255,209,128);
+}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="baseWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="storageVal">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>180</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>已使用 32G/128G</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="deviceSeqVal">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>143</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>132412320200612XXX</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="softVersionVal">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>110</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>STD-5A120701J-MDG</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="storage">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>185</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存储空间</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="deviceSeq">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>149</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>设备序列号</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="softVersion">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>115</y>
+      <width>72</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>软件版本</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../res.qrc"/>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

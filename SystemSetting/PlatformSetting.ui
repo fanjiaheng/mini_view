@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlatformSetting</class>
+ <widget class="QWidget" name="PlatformSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PlatformSetting</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+*{
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 255, 100%);
+font: 18px;
+/*border:1px solid red;*/
+}
+
+#widgetHead{
+	/*background-color: rgba(20 ,30, 30,100);*/
+	/*border-bottom:1px solid #F8F8FF;*/
+}
+
+#tableWidget::item:focus{
+	/*border: 0px solid rgb(255,209,128);)*/
+border: 0px;
+background-color::rgb(255,209,128);
+}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="baseWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="serverIpVal">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>130</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>192.168.33.128</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="enable">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>100</y>
+      <width>91</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>使能</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="serverIp">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>服务器地址 :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="serverPortVal">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>160</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>8088</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="serverPort">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>服务器端口 :</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

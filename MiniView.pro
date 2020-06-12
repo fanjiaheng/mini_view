@@ -33,7 +33,12 @@ SOURCES += \
     VideoSetting.cpp \
     CameraSetting.cpp \
     NetSetting.cpp \
-    SystemSetting.cpp
+    SystemSetting.cpp \
+    SystemSetting/DeviceMaintain.cpp \
+    SystemSetting/DeviceManage.cpp \
+    SystemSetting/EventManage.cpp \
+    SystemSetting/PlatformSetting.cpp \
+    SystemSetting/SystemInfo.cpp
 
 HEADERS += \
     MainWindow.h \
@@ -43,7 +48,12 @@ HEADERS += \
     VideoSetting.h \
     CameraSetting.h \
     NetSetting.h \
-    SystemSetting.h
+    SystemSetting.h \
+    SystemSetting/DeviceMaintain.h \
+    SystemSetting/DeviceManage.h \
+    SystemSetting/EventManage.h \
+    SystemSetting/PlatformSetting.h \
+    SystemSetting/SystemInfo.h
 
 FORMS += \
     MainView.ui \
@@ -52,7 +62,12 @@ FORMS += \
     VideoSetting.ui \
     CameraSetting.ui \
     NetSetting.ui \
-    SystemSetting.ui
+    SystemSetting.ui \
+    SystemSetting/DeviceMaintain.ui \
+    SystemSetting/DeviceManage.ui \
+    SystemSetting/EventManage.ui \
+    SystemSetting/PlatformSetting.ui \
+    SystemSetting/SystemInfo.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

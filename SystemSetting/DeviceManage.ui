@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeviceManage</class>
+ <widget class="QWidget" name="DeviceManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DeviceManage</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+*{
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 255, 100%);
+font: 18px;
+/*border:1px solid red;*/
+}
+
+#widgetHead{
+	/*background-color: rgba(20 ,30, 30,100);*/
+	/*border-bottom:1px solid #F8F8FF;*/
+}
+
+#tableWidget::item:focus{
+	/*border: 0px solid rgb(255,209,128);)*/
+border: 0px;
+background-color::rgb(255,209,128);
+}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="baseWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>130</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>设备管理</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

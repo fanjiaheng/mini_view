@@ -165,6 +165,7 @@ void CVideoSetting::keyPressEvent(QKeyEvent *ev)
         if(ev->key() == Qt::Key_Escape)
         {
             QWidget::keyPressEvent(ev);
+
             return;
         }
     }
